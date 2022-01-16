@@ -1,0 +1,20 @@
+.nav-list {
+ display: flex ;
+ list-style-type: none;
+ background-color:cornflowerblue;
+ 
+}
+.nav-item {  
+    margin: 40px;
+}
+.nav-item1 {  
+    margin-left: 135px;
+}
+.footer {
+    display: flex;  
+    background-color: cornflowerblue;
+    
+}
+.main {
+    background-color: cyan;
+}
