@@ -42,7 +42,7 @@ body {
   display: flex;
 }
 
-ul {
+.ul {
   margin: 0;
   padding: 0px;
 }
@@ -72,7 +72,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.h3,
 label[for='new-task'] {
   color: #333;
   font-weight: 700;
@@ -151,21 +151,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed label {
+.ul#completed label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.ul li input[type=text] {
   display: none
 }
 
-ul li.edit-mode input[type=text] {
+.ul li.edit-mode input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-ul li.edit-mode label {
+.ul li.edit-mode label {
   display: none;
 }
