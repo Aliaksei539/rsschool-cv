@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .main-paint {
     text-align: center;
   }
+  
 }
 
 .empty-field {
